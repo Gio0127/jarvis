@@ -1,0 +1,12 @@
+# Dati personali: mai su GitHub
+impostazioni_personali.json
+rubrica.json
+.spotify_token
+CLAUDE.local.md
+
+# Generati
+__pycache__/
+.venv/
+*.log
+jarvis.lock
+campioni_voce/

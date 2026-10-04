@@ -1,0 +1,30 @@
+{
+  "nome": "Mario",
+  "citta": "Roma",
+  "lat": 41.90,
+  "lon": 12.50,
+  "profilo": [
+    "Lavoro: impiegato in un'azienda di logistica, si occupa di spedizioni e magazzino.",
+    "Obiettivo: imparare a programmare in Python.",
+    "Hobby: calcetto, cucina, serie TV."
+  ],
+  "persone": [
+    "Famiglia: la madre Anna, il padre Luca, il fratello Paolo.",
+    "Fidanzata: Sara.",
+    "Amici: Marco e Davide."
+  ],
+  "conoscenze": {
+    "LAVORO": {
+      "sottovoci": ["spedizioni", "magazzino", "ordini"],
+      "parole": ["lavoro", "spediz", "magazzin", "ordin", "corriere"]
+    },
+    "CUCINA": {
+      "sottovoci": ["ricette", "dieta"],
+      "parole": ["ricett", "cucin", "dieta"]
+    }
+  },
+  "modello_llm": "gemma4:12b",
+  "voce": "im_nicola",
+  "velocita": 1.5,
+  "spotify_client_id": ""
+}

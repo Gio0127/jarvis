@@ -1,0 +1,23 @@
+[project]
+name = "jarvis-voice"
+version = "0.1.0"
+description = "Assistente vocale in italiano con HUD olografico, in locale"
+requires-python = "==3.12.*"
+# Versioni fissate: sono quelle con cui Jarvis e' stato provato
+dependencies = [
+    "numpy==2.2.6",
+    "sounddevice==0.5.6",
+    "pyside6==6.11.2",
+    "openwakeword==0.6.0",
+    "onnxruntime==1.24.2",
+    "faster-whisper==1.2.1",
+    "kokoro==0.9.4",
+    "torch==2.11.0",
+    "psutil==7.2.2",
+    "nvidia-ml-py==13.610.43",
+    "spotipy==2.26.0",
+]
+
+[tool.uv]
+package = false  # e' uno script, non una libreria da installare
+environments = ["sys_platform == 'win32'"]  # Jarvis usa API di Windows: niente risoluzione per Linux/macOS
