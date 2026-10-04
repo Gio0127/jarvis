@@ -21,3 +21,13 @@ dependencies = [
 [tool.uv]
 package = false  # e' uno script, non una libreria da installare
 environments = ["sys_platform == 'win32'"]  # Jarvis usa API di Windows: niente risoluzione per Linux/macOS
+
+
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
